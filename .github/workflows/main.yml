@@ -3,10 +3,10 @@ name: CI and CD data model
 on:
   push:
     branches:
-      - develop
+      - staging
   pull_request:
     branches:
-      - develop
+      - staging
 
 jobs:
   retraining_model:
